@@ -1,0 +1,902 @@
+/* Theme Name: Agendo.
+Theme Design: Amir Hamza Shuvo Khan.
+Theme Created By: Amir Hamza Shuvo Khan. */
+
+/* Common Css Code Start Here */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.mixpd_50{
+    margin-bottom: 50px !important;
+}
+
+/* Common Css Code End Here */
+
+/* Banner Css Code Start Here */
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner .banner_overly {
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 450px;
+    padding-bottom: 450px;
+}
+
+#banner .banner_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* Banner Css Code End Here */
+
+/* Menubar Css Code Start Here */
+
+.navbar {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header {
+    position: fixed;
+    top: 100%;
+    background: #177bbb;
+}
+
+.header-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: menu 2s;
+}
+
+@keyframes menu {
+    from {
+        top: 95%;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 100px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 40px;
+}
+
+.logo .brand_name {
+    font-family: 'Rochester', cursive;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.logo .brand_name:hover {
+    color: #fff;
+}
+
+/* Menubar Css Code End Here */
+
+/* Agendo Group Css Code Start Here */
+
+#agendo_group {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f6f6f6;
+}
+
+#agendo_group .agendo_head_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+
+#agendo_group .agendo_head_text h3 span {
+    color: #177bbb;
+}
+
+#agendo_group .agendo_group_item {
+    cursor: pointer;
+}
+
+#agendo_group .agenda_item_text i {
+    font-size: 40px;
+    color: #000;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 90px;
+    margin-bottom: 45px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#agendo_group .agendo_group_item:hover i {
+    color: #fff;
+    background: #177bbb;
+    border: 1px solid #177bbb;
+}
+
+#agendo_group .agenda_item_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#agendo_group .agenda_item_text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* Agendo Group Css Code End Here */
+
+/* ShowCase Css Code Start Here */
+#showcase {
+    padding-top: 100px;
+    background: url(../images/showcase_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase .showcase_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+}
+
+#showcase .showcase_text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #666;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+#showcase .showcase_text a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 29px 15px 29px;
+    background: #177bbb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 50px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#showcase .showcase_text a:hover {
+    background: #0089df;
+}
+/* ShowCase Css Code End Here */
+
+/* Testimonial Css Code Start Here */
+#testimonial {
+    background: url(../images/testimonial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+#testimonial  .testimonial_overly {
+    background: rgba(0, 0, 0, 0.9);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#testimonial .showcase_content i {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+#testimonial .showcase_content i:hover {
+    background: rgb(3, 146, 241);
+    color: #fff;
+}
+
+#testimonial .showcase_content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#testimonial .showcase_content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #177bbb;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+#testimonial .showcase_content span {
+    margin-left: 15px;
+}
+
+#testimonial  ul li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff;
+    font-size: 0;
+    outline: 0;
+}
+
+#testimonial  ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#testimonial ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+#testimonial ul .slick-active button{
+    background: #177bbb;
+    border: 1px solid #177bbb;
+}
+/* Testimonial Css Code End Here */
+
+/* Meet Our Team Css Code Start Here */
+#meet_our_team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#meet_our_team .team_image {
+    position: relative;
+}
+
+#meet_our_team .team_overly {
+    position: absolute;
+    top: 0;
+    left: 16%;
+    width: 69%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #177cbbcc;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#meet_our_team .team_overly i {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #177cbbcc;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+#meet_our_team .team_top_contain h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+#meet_our_team .team_top_contain h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    padding-bottom: 45px;
+}
+
+#meet_our_team .team_member h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    padding: 30px 0px 12px 0px;
+    text-transform: uppercase;
+}
+
+#meet_our_team .team_member p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+}
+
+#meet_our_team .team_member:hover .team_overly {
+    opacity: 1;
+}
+/* Meet Our Team Css Code End Here */
+
+/* Our Skills Css Code Start Here */
+#our_skills {
+    background: url(../images/skill_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#our_skills .our_skills_overly {
+    background: rgba(255, 255, 255, 0.9);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#our_skills .our_skill_text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #010000;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+
+#our_skills .skill_describtion h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #666;
+	padding: 0px 50px 45px 0px;
+}
+
+#our_skills .skill_describtion a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #177bbb;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #177bbb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: inline-block;
+    padding: 15px 30px 15px 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#our_skills .skill_describtion a:hover {
+    background: #177bbb;
+    border: 1px solid #177bbb;
+    color: #fff;
+}
+
+#our_skills .progressbar_item h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 25px;
+}
+
+#our_skills .progressbar {
+    width: 100%;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	position: relative;
+	background: #177cbb21;
+}
+
+#our_skills .proggress{
+	width: 10px;
+	background: #3498db;
+}
+
+#our_skills .percentCount {
+	float: right;
+	clear: both;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+	margin-top: -35px;
+}
+/* Our Skills Css Code End Here */
+
+/* Our Service Css Code Start Here */
+#our_services {
+    background: url(../images/service_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#our_services .our_services_overly {
+    background: #177cbbea;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#our_services .our_service_head_text h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+#our_services .our_service_head_text p {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000;
+    padding-bottom: 45px;
+}
+
+#our_services .our_service_item h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+#our_services .our_service_item p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	width: 266px;
+    padding-bottom: 50px;
+}
+/* Our Service Css Code End Here */
+
+/* Review Slide Css Code Start Here */
+#review .image_main {
+    position: relative;
+    cursor: pointer;
+}
+
+#review .image_overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 1;
+}
+
+#review .image_main:hover .image_overly {
+    opacity: 0;
+}
+/* Review Slide Css Code End Here */
+
+/* Our Portfolio Css Code Start Here */
+#our_portfolio {
+    background: url(../images/showcase_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#our_portfolio .our_portfolio_text h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #000;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+#our_portfolio .text_button button {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #177bbb;
+    padding: 0px 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 50px;
+    outline: 0;
+}
+
+#our_portfolio .portfolio_item {
+    position: relative;
+    cursor: pointer;
+}
+
+#our_portfolio .portfolio_item img {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#our_portfolio .portfolio_name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 43px;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    opacity: 1;
+}
+
+#our_portfolio .portfolio_name p {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    top: 50%;
+    padding-left: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+/* Our Portfolio Css Code End Here */
+
+/* Our Partners Css Code Start Here */
+#our_partners {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+/* Our Partners Css Code End Here */
+
+/* Latest Blog Css Code Start Here */
+#latest_blog {
+    background: #323232;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#latest_blog .latest_blog_text h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+#latest_blog .latest_blog_item_img {
+    position: relative;
+}
+
+#latest_blog .latest_blog_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background: #177cbbb7;
+    opacity: 1;
+}
+
+#latest_blog .latest_blog_bottom .date {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#latest_blog .latest_blog_bottom .month {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+#latest_blog .latest_blog_bottom .comment {
+	margin-top: -36px;
+	margin-left: 290px;
+}
+
+#latest_blog .latest_blog_bottom .comment i {
+    font-size: 17px;
+    color: #fff;
+}
+
+#latest_blog .latest_blog_bottom .comment span {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+    margin-left: 10px;
+}
+
+#latest_blog .blog_text h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+    padding-top: 25px;
+}
+
+#latest_blog .blog_text p {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+    padding-top: 12px;
+}
+/* Latest Blog Css Code End Here */
+
+/* Google Map Location Css Code Start Here */
+/* Setup Map */
+/* Google Map Location Css Code End Here */
+
+/* Contact Css Code Start Here */
+#contact {
+    padding-top: 45px;
+    padding-bottom: 100px;
+}
+
+#contact .contact_text h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #000;
+    padding-bottom: 45px;
+}
+
+#contact .contact_text h4 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #666666;
+    padding-bottom: 50px;
+}
+
+#contact .icon i {
+    font-size: 25px;
+    color: #177bbb;
+    display: block;
+    padding-bottom: 30px;
+}
+
+#contact .icon_text p{
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #177bbb;
+    padding-bottom: 33px;
+}
+
+#contact .send_msg h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #000;
+    padding-bottom: 50px;
+}
+
+#contact .contact_from input {
+    width: 100%;
+    padding: 5px 0px 5px 15px;
+    color: #177bbb;
+    border: 1px solid #177bbb;
+    margin-bottom: 20px;
+}
+
+#contact .contact_from textarea {
+    width: 100%;
+    padding: 5px 0px 5px 15px;
+    color: #177bbb;
+    border: 1px solid #177bbb;
+    margin-bottom: 20px;
+}
+
+#contact .contact_from i {
+    padding: 10px 0px;
+    width: 100%;
+    background: #323232;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+/* Contact Css Code End Here */
+
+/* Footer Css Code Start Here */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background: #191919;
+}
+
+#footer .social_icon i {
+    width: 65px;
+    height: 65px;
+    background: #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #fff;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#footer .social_icon i:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color: #000;
+}
+
+#footer .footer_txt h3 {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+}
+/* Footer Css Code End Here */
+
+/* Common Css Code Start Here */
+
+/* Common Css Code End Here */
